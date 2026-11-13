@@ -208,6 +208,23 @@ def run_pipeline(
     chaos = chaos or ChaosConfig()
     run_dir = Path(out_dir).expanduser().resolve()
     logger = RunLogger(run_dir)
+    for stale in (
+        "report.md",
+        "summary.json",
+        "input_info.json",
+        "cleaning_report.json",
+        "metrics_before.json",
+        "goal.json",
+        "diagnosis.json",
+        "actions_library.json",
+        "plan.json",
+        "action_receipts.json",
+        "metrics_after.json",
+        "llm_trace.json",
+    ):
+        stale_path = run_dir / stale
+        if stale_path.exists():
+            stale_path.unlink()
     run_id = run_dir.name
     started_at = datetime.now().astimezone().isoformat(timespec="seconds")
     llm_config = LLMConfig.from_env(mode=llm_mode, force_down=chaos.llm_down)
