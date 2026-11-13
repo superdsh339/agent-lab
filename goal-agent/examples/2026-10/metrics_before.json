@@ -1,0 +1,424 @@
+{
+  "reported": {
+    "as_of": "2026-10-31",
+    "days_in_month": 31,
+    "revenue": 9480000.0,
+    "cost": 6950000.0,
+    "gross_profit": 2530000.0,
+    "gross_margin": 0.2668776371308017,
+    "cash": 4690000.0,
+    "ar": 13330000.0,
+    "rows": 18,
+    "customers": 9,
+    "aging_buckets": {
+      "0-30": 3830000.0,
+      "31-60": 1600000.0,
+      "61-90": 1700000.0,
+      "91-180": 4700000.0,
+      ">180": 1500000.0
+    },
+    "by_contract": [
+      {
+        "contract_id": "HT-2026-0105",
+        "customer": "蓝海科技",
+        "revenue": 2000000.0,
+        "cost": 1300000.0,
+        "gross_profit": 700000.0,
+        "gross_margin": 0.35
+      },
+      {
+        "contract_id": "HT-2026-0103",
+        "customer": "瑞康医药",
+        "revenue": 1400000.0,
+        "cost": 1050000.0,
+        "gross_profit": 350000.0,
+        "gross_margin": 0.25
+      },
+      {
+        "contract_id": "HT-2026-0102",
+        "customer": "恒远物流",
+        "revenue": 1200000.0,
+        "cost": 900000.0,
+        "gross_profit": 300000.0,
+        "gross_margin": 0.25
+      },
+      {
+        "contract_id": "HT-2026-0108",
+        "customer": "远达能源",
+        "revenue": 1100000.0,
+        "cost": 820000.0,
+        "gross_profit": 280000.0,
+        "gross_margin": 0.2545454545454545
+      },
+      {
+        "contract_id": "HT-2026-0107",
+        "customer": "华辰制造",
+        "revenue": 960000.0,
+        "cost": 560000.0,
+        "gross_profit": 400000.0,
+        "gross_margin": 0.4166666666666667
+      },
+      {
+        "contract_id": "HT-2026-0112",
+        "customer": "华信建设",
+        "revenue": 900000.0,
+        "cost": 660000.0,
+        "gross_profit": 240000.0,
+        "gross_margin": 0.26666666666666666
+      },
+      {
+        "contract_id": "HT-2026-0106",
+        "customer": "启明电子",
+        "revenue": 800000.0,
+        "cost": 680000.0,
+        "gross_profit": 120000.0,
+        "gross_margin": 0.15
+      },
+      {
+        "contract_id": "HT-2026-0109",
+        "customer": "盛达零售",
+        "revenue": 700000.0,
+        "cost": 560000.0,
+        "gross_profit": 140000.0,
+        "gross_margin": 0.2
+      },
+      {
+        "contract_id": "HT-2026-0110",
+        "customer": "中科软件",
+        "revenue": 600000.0,
+        "cost": 420000.0,
+        "gross_profit": 180000.0,
+        "gross_margin": 0.3
+      },
+      {
+        "contract_id": "HT-2026-0103-R",
+        "customer": "瑞康医药",
+        "revenue": -180000.0,
+        "cost": 0.0,
+        "gross_profit": -180000.0,
+        "gross_margin": 1.0
+      }
+    ],
+    "top_ar": [
+      {
+        "contract_id": "HT-2026-0116",
+        "customer": "远达能源",
+        "invoice_date": "2026-05-15",
+        "terms_days": 90,
+        "aging_days": 169,
+        "overdue_days": 79,
+        "ar": 1900000.0
+      },
+      {
+        "contract_id": "HT-2026-0101",
+        "customer": "华信建设",
+        "invoice_date": "2026-02-15",
+        "terms_days": 60,
+        "aging_days": 258,
+        "overdue_days": 198,
+        "ar": 1500000.0
+      },
+      {
+        "contract_id": "HT-2026-0115",
+        "customer": "启明电子",
+        "invoice_date": "2026-07-15",
+        "terms_days": 45,
+        "aging_days": 108,
+        "overdue_days": 63,
+        "ar": 1500000.0
+      },
+      {
+        "contract_id": "HT-2026-0111",
+        "customer": "恒远物流",
+        "invoice_date": "2026-06-30",
+        "terms_days": 60,
+        "aging_days": 123,
+        "overdue_days": 63,
+        "ar": 1300000.0
+      },
+      {
+        "contract_id": "HT-2026-0117",
+        "customer": "盛达零售",
+        "invoice_date": "2026-09-15",
+        "terms_days": 30,
+        "aging_days": 46,
+        "overdue_days": 16,
+        "ar": 1000000.0
+      },
+      {
+        "contract_id": "HT-2026-0114",
+        "customer": "蓝海科技",
+        "invoice_date": "2026-08-20",
+        "terms_days": 60,
+        "aging_days": 72,
+        "overdue_days": 12,
+        "ar": 900000.0
+      },
+      {
+        "contract_id": "HT-2026-0105",
+        "customer": "蓝海科技",
+        "invoice_date": "2026-10-12",
+        "terms_days": 60,
+        "aging_days": 19,
+        "overdue_days": 0,
+        "ar": 800000.0
+      },
+      {
+        "contract_id": "HT-2026-0118",
+        "customer": "中科软件",
+        "invoice_date": "2026-08-31",
+        "terms_days": 45,
+        "aging_days": 61,
+        "overdue_days": 16,
+        "ar": 800000.0
+      },
+      {
+        "contract_id": "HT-2026-0119",
+        "customer": "华辰制造",
+        "invoice_date": "2026-09-05",
+        "terms_days": 30,
+        "aging_days": 56,
+        "overdue_days": 26,
+        "ar": 600000.0
+      },
+      {
+        "contract_id": "HT-2026-0106",
+        "customer": "启明电子",
+        "invoice_date": "2026-10-15",
+        "terms_days": 90,
+        "aging_days": 16,
+        "overdue_days": 0,
+        "ar": 500000.0
+      }
+    ],
+    "overdue_ar": 9500000.0,
+    "dso_days": 43.59,
+    "collection_rate": 0.4947
+  },
+  "adjusted": {
+    "as_of": "2026-10-31",
+    "days_in_month": 31,
+    "revenue": 8520000.0,
+    "cost": 6390000.0,
+    "gross_profit": 2130000.0,
+    "gross_margin": 0.25,
+    "cash": 4690000.0,
+    "ar": 13330000.0,
+    "rows": 18,
+    "customers": 9,
+    "aging_buckets": {
+      "0-30": 3830000.0,
+      "31-60": 1600000.0,
+      "61-90": 1700000.0,
+      "91-180": 4700000.0,
+      ">180": 1500000.0
+    },
+    "by_contract": [
+      {
+        "contract_id": "HT-2026-0105",
+        "customer": "蓝海科技",
+        "revenue": 2000000.0,
+        "cost": 1300000.0,
+        "gross_profit": 700000.0,
+        "gross_margin": 0.35
+      },
+      {
+        "contract_id": "HT-2026-0103",
+        "customer": "瑞康医药",
+        "revenue": 1400000.0,
+        "cost": 1050000.0,
+        "gross_profit": 350000.0,
+        "gross_margin": 0.25
+      },
+      {
+        "contract_id": "HT-2026-0102",
+        "customer": "恒远物流",
+        "revenue": 1200000.0,
+        "cost": 900000.0,
+        "gross_profit": 300000.0,
+        "gross_margin": 0.25
+      },
+      {
+        "contract_id": "HT-2026-0108",
+        "customer": "远达能源",
+        "revenue": 1100000.0,
+        "cost": 820000.0,
+        "gross_profit": 280000.0,
+        "gross_margin": 0.2545454545454545
+      },
+      {
+        "contract_id": "HT-2026-0112",
+        "customer": "华信建设",
+        "revenue": 900000.0,
+        "cost": 660000.0,
+        "gross_profit": 240000.0,
+        "gross_margin": 0.26666666666666666
+      },
+      {
+        "contract_id": "HT-2026-0106",
+        "customer": "启明电子",
+        "revenue": 800000.0,
+        "cost": 680000.0,
+        "gross_profit": 120000.0,
+        "gross_margin": 0.15
+      },
+      {
+        "contract_id": "HT-2026-0109",
+        "customer": "盛达零售",
+        "revenue": 700000.0,
+        "cost": 560000.0,
+        "gross_profit": 140000.0,
+        "gross_margin": 0.2
+      },
+      {
+        "contract_id": "HT-2026-0110",
+        "customer": "中科软件",
+        "revenue": 600000.0,
+        "cost": 420000.0,
+        "gross_profit": 180000.0,
+        "gross_margin": 0.3
+      },
+      {
+        "contract_id": "HT-2026-0103-R",
+        "customer": "瑞康医药",
+        "revenue": -180000.0,
+        "cost": 0.0,
+        "gross_profit": -180000.0,
+        "gross_margin": 1.0
+      }
+    ],
+    "top_ar": [
+      {
+        "contract_id": "HT-2026-0116",
+        "customer": "远达能源",
+        "invoice_date": "2026-05-15",
+        "terms_days": 90,
+        "aging_days": 169,
+        "overdue_days": 79,
+        "ar": 1900000.0
+      },
+      {
+        "contract_id": "HT-2026-0101",
+        "customer": "华信建设",
+        "invoice_date": "2026-02-15",
+        "terms_days": 60,
+        "aging_days": 258,
+        "overdue_days": 198,
+        "ar": 1500000.0
+      },
+      {
+        "contract_id": "HT-2026-0115",
+        "customer": "启明电子",
+        "invoice_date": "2026-07-15",
+        "terms_days": 45,
+        "aging_days": 108,
+        "overdue_days": 63,
+        "ar": 1500000.0
+      },
+      {
+        "contract_id": "HT-2026-0111",
+        "customer": "恒远物流",
+        "invoice_date": "2026-06-30",
+        "terms_days": 60,
+        "aging_days": 123,
+        "overdue_days": 63,
+        "ar": 1300000.0
+      },
+      {
+        "contract_id": "HT-2026-0117",
+        "customer": "盛达零售",
+        "invoice_date": "2026-09-15",
+        "terms_days": 30,
+        "aging_days": 46,
+        "overdue_days": 16,
+        "ar": 1000000.0
+      },
+      {
+        "contract_id": "HT-2026-0114",
+        "customer": "蓝海科技",
+        "invoice_date": "2026-08-20",
+        "terms_days": 60,
+        "aging_days": 72,
+        "overdue_days": 12,
+        "ar": 900000.0
+      },
+      {
+        "contract_id": "HT-2026-0105",
+        "customer": "蓝海科技",
+        "invoice_date": "2026-10-12",
+        "terms_days": 60,
+        "aging_days": 19,
+        "overdue_days": 0,
+        "ar": 800000.0
+      },
+      {
+        "contract_id": "HT-2026-0118",
+        "customer": "中科软件",
+        "invoice_date": "2026-08-31",
+        "terms_days": 45,
+        "aging_days": 61,
+        "overdue_days": 16,
+        "ar": 800000.0
+      },
+      {
+        "contract_id": "HT-2026-0119",
+        "customer": "华辰制造",
+        "invoice_date": "2026-09-05",
+        "terms_days": 30,
+        "aging_days": 56,
+        "overdue_days": 26,
+        "ar": 600000.0
+      },
+      {
+        "contract_id": "HT-2026-0106",
+        "customer": "启明电子",
+        "invoice_date": "2026-10-15",
+        "terms_days": 90,
+        "aging_days": 16,
+        "overdue_days": 0,
+        "ar": 500000.0
+      }
+    ],
+    "overdue_ar": 9500000.0,
+    "dso_days": 48.5,
+    "collection_rate": 0.5505
+  },
+  "formulas": [
+    {
+      "指标": "本月确认收入",
+      "公式": "Σ 本月确认收入（退款/折让红字冲减）"
+    },
+    {
+      "指标": "本月毛利",
+      "公式": "本月确认收入 - 本月成本"
+    },
+    {
+      "指标": "毛利率",
+      "公式": "本月毛利 / 本月确认收入"
+    },
+    {
+      "指标": "本月回款",
+      "公式": "Σ 本月回款（实际到账，退款为负）"
+    },
+    {
+      "指标": "回款率",
+      "公式": "本月回款 / 本月确认收入"
+    },
+    {
+      "指标": "期末应收",
+      "公式": "Σ 截至 2026-10-31 的应收余额"
+    },
+    {
+      "指标": "回款周期 DSO",
+      "公式": "期末应收 / 本月确认收入 × 31"
+    },
+    {
+      "指标": "账龄",
+      "公式": "2026-10-31 - 开票日"
+    },
+    {
+      "指标": "逾期天数",
+      "公式": "max(0, 账龄 - 约定账期)"
+    }
+  ]
+}

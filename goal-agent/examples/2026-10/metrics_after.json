@@ -1,0 +1,32 @@
+{
+  "forecast": {
+    "revenue": 8520000.0,
+    "cost": 6112900.0,
+    "gross_profit": 2407100.0,
+    "gross_margin": 0.282523,
+    "ar": 12160000.0,
+    "collected": 1170000.0,
+    "dso_days": 44.24
+  },
+  "conservative": {
+    "revenue": 8520000.0,
+    "cost": 6126755.0,
+    "gross_profit": 2393245.0,
+    "gross_margin": 0.280897,
+    "ar": 12218500.0,
+    "collected": 1111500.0,
+    "dso_days": 44.46
+  },
+  "meets": true,
+  "gaps": [],
+  "target": {
+    "margin": 0.28,
+    "dso": 45.0
+  },
+  "effective_action_ids": [
+    "M-SUP-01",
+    "M-WASTE-01",
+    "C-AR-0101",
+    "C-AR-0116"
+  ]
+}

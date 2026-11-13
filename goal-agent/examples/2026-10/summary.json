@@ -1,0 +1,93 @@
+{
+  "status": "met",
+  "exit_code": 0,
+  "run_id": "2026-10",
+  "started_at": "2026-11-13T11:34:17+08:00",
+  "period": "2026-10",
+  "plan_period": "2026-11",
+  "goal": {
+    "raw_text": "本月毛利提 3 个点，回款周期压到 45 天以内",
+    "margin_delta_pp": 3.0,
+    "dso_target_days": 45.0,
+    "baseline_margin": 0.25,
+    "target_margin": 0.28,
+    "parser": "rule",
+    "notes": [
+      "命中毛利表述：「毛利提 3 个点」",
+      "命中回款表述：「回款周期压到 45 天」"
+    ]
+  },
+  "baseline": {
+    "revenue": 8520000.0,
+    "gross_profit": 2130000.0,
+    "gross_margin": 0.25,
+    "ar": 13330000.0,
+    "dso_days": 48.5
+  },
+  "forecast": {
+    "revenue": 8520000.0,
+    "cost": 6112900.0,
+    "gross_profit": 2407100.0,
+    "gross_margin": 0.282523,
+    "ar": 12160000.0,
+    "collected": 1170000.0,
+    "dso_days": 44.24
+  },
+  "conservative": {
+    "revenue": 8520000.0,
+    "cost": 6126755.0,
+    "gross_profit": 2393245.0,
+    "gross_margin": 0.280897,
+    "ar": 12218500.0,
+    "collected": 1111500.0,
+    "dso_days": 44.46
+  },
+  "gaps": [],
+  "plan_action_ids": [
+    "M-SUP-01",
+    "M-WASTE-01",
+    "C-AR-0101",
+    "C-AR-0116"
+  ],
+  "effective_action_ids": [
+    "M-SUP-01",
+    "M-WASTE-01",
+    "C-AR-0101",
+    "C-AR-0116"
+  ],
+  "receipts": {
+    "executed": 4,
+    "failed": 0
+  },
+  "fallbacks": [
+    {
+      "stage": "narrative",
+      "reason": "模型未启用：未配置 DEEPSEEK_API_KEY / LLM_API_KEY",
+      "action": "使用规则模板生成摘要"
+    }
+  ],
+  "llm": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "api_key_configured": false,
+    "timeout_seconds": 25.0,
+    "max_retries": 1,
+    "enabled": false,
+    "disabled_reason": "未配置 DEEPSEEK_API_KEY / LLM_API_KEY"
+  },
+  "llm_label": "未调用（未配置 DEEPSEEK_API_KEY / LLM_API_KEY）",
+  "verification": {
+    "passed": 12,
+    "total": 12
+  },
+  "artifacts": {
+    "report": "report.md",
+    "run_log": "run.log",
+    "events": "events.jsonl",
+    "cleaning": "cleaning_report.json",
+    "plan": "plan.json",
+    "receipts": "action_receipts.json",
+    "metrics_after": "metrics_after.json"
+  }
+}
