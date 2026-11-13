@@ -1,0 +1,14 @@
+2026-11-13T11:34:17+08:00 INFO   [start] 运行开始 | run_id=2026-10 out_dir=examples/2026-10 chaos={'llm_down': False, 'data_corrupt': False, 'action_fail_ids': []}
+2026-11-13T11:34:17+08:00 INFO   [ingest] 数据读取完成 | rows=18 customers=9
+2026-11-13T11:34:17+08:00 INFO   [clean] 清洗完成 | anomaly_counts={'AR_AGING_GT_180': 1, 'REFUND_OR_REBATE': 1, 'REVENUE_CROSS_PERIOD': 1} reported_margin=0.27 adjusted_margin=0.25
+2026-11-13T11:34:17+08:00 INFO   [metrics] 基线指标完成 | adjusted_margin=0.25 adjusted_dso=48.50
+2026-11-13T11:34:17+08:00 INFO   [goal] 规则解析目标成功 | margin_delta_pp=3.00 dso_target_days=45.00 target_margin=0.28
+2026-11-13T11:34:17+08:00 INFO   [actions] 动作库生成 | count=9
+2026-11-13T11:34:17+08:00 INFO   [plan] 规划完成 | meets=True actions=4 forecast_margin=0.28 forecast_dso=44.24
+2026-11-13T11:34:17+08:00 INFO   [execute] 动作执行成功 | action_id=M-SUP-01 amount=227500.00
+2026-11-13T11:34:17+08:00 INFO   [execute] 动作执行成功 | action_id=M-WASTE-01 amount=49600.00
+2026-11-13T11:34:17+08:00 INFO   [execute] 动作执行成功 | action_id=C-AR-0101 amount=600000.00
+2026-11-13T11:34:17+08:00 INFO   [execute] 动作执行成功 | action_id=C-AR-0116 amount=570000.00
+2026-11-13T11:34:17+08:00 INFO   [verify] 最终复核完成 | meets=True margin=0.28 dso=44.24 failures=0
+2026-11-13T11:34:17+08:00 WARN   [narrative] 触发兜底：模型未启用：未配置 DEEPSEEK_API_KEY / LLM_API_KEY | reason=模型未启用：未配置 DEEPSEEK_API_KEY / LLM_API_KEY fallback_action=使用规则模板生成摘要
+2026-11-13T11:34:17+08:00 INFO   [done] 运行结束 | status=met exit_code=0 verification=12/12

@@ -1,0 +1,14 @@
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "start", "message": "运行开始", "data": {"run_id": "2026-10", "out_dir": "examples/2026-10", "chaos": {"llm_down": false, "data_corrupt": false, "action_fail_ids": []}}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "ingest", "message": "数据读取完成", "data": {"rows": 18, "customers": 9}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "clean", "message": "清洗完成", "data": {"anomaly_counts": {"AR_AGING_GT_180": 1, "REFUND_OR_REBATE": 1, "REVENUE_CROSS_PERIOD": 1}, "reported_margin": 0.2669, "adjusted_margin": 0.25}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "metrics", "message": "基线指标完成", "data": {"adjusted_margin": 0.25, "adjusted_dso": 48.5}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "goal", "message": "规则解析目标成功", "data": {"margin_delta_pp": 3.0, "dso_target_days": 45.0, "target_margin": 0.28}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "actions", "message": "动作库生成", "data": {"count": 9}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "plan", "message": "规划完成", "data": {"meets": true, "actions": 4, "forecast_margin": 0.2825, "forecast_dso": 44.24}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "execute", "message": "动作执行成功", "data": {"action_id": "M-SUP-01", "amount": 227500.0}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "execute", "message": "动作执行成功", "data": {"action_id": "M-WASTE-01", "amount": 49600.0}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "execute", "message": "动作执行成功", "data": {"action_id": "C-AR-0101", "amount": 600000.0}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "execute", "message": "动作执行成功", "data": {"action_id": "C-AR-0116", "amount": 570000.0}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "verify", "message": "最终复核完成", "data": {"meets": true, "margin": 0.2825, "dso": 44.24, "failures": 0}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "WARN", "stage": "narrative", "message": "触发兜底：模型未启用：未配置 DEEPSEEK_API_KEY / LLM_API_KEY", "data": {"reason": "模型未启用：未配置 DEEPSEEK_API_KEY / LLM_API_KEY", "fallback_action": "使用规则模板生成摘要"}}
+{"ts": "2026-11-13T11:34:17+08:00", "level": "INFO", "stage": "done", "message": "运行结束", "data": {"status": "met", "exit_code": 0, "verification": "12/12"}}

@@ -1,0 +1,15 @@
+{
+  "config": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "api_key_configured": false,
+    "timeout_seconds": 25.0,
+    "max_retries": 1,
+    "enabled": false,
+    "disabled_reason": "未配置 DEEPSEEK_API_KEY / LLM_API_KEY"
+  },
+  "calls": [],
+  "narrative_source": "fallback",
+  "narrative_reason": "未配置 DEEPSEEK_API_KEY / LLM_API_KEY"
+}

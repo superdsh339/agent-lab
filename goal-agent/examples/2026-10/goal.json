@@ -1,0 +1,12 @@
+{
+  "raw_text": "本月毛利提 3 个点，回款周期压到 45 天以内",
+  "margin_delta_pp": 3.0,
+  "dso_target_days": 45.0,
+  "baseline_margin": 0.25,
+  "target_margin": 0.28,
+  "parser": "rule",
+  "notes": [
+    "命中毛利表述：「毛利提 3 个点」",
+    "命中回款表述：「回款周期压到 45 天」"
+  ]
+}

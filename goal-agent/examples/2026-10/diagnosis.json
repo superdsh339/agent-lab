@@ -1,0 +1,157 @@
+{
+  "margin_gap_pp": 3.0,
+  "margin_gap_amount": 255600.0,
+  "ar_target": 12367741.94,
+  "cash_gap": 962258.06,
+  "low_margin_contracts": [
+    {
+      "contract_id": "HT-2026-0106",
+      "customer": "启明电子",
+      "revenue": 800000.0,
+      "cost": 680000.0,
+      "gross_profit": 120000.0,
+      "gross_margin": 0.15
+    },
+    {
+      "contract_id": "HT-2026-0109",
+      "customer": "盛达零售",
+      "revenue": 700000.0,
+      "cost": 560000.0,
+      "gross_profit": 140000.0,
+      "gross_margin": 0.2
+    },
+    {
+      "contract_id": "HT-2026-0103",
+      "customer": "瑞康医药",
+      "revenue": 1400000.0,
+      "cost": 1050000.0,
+      "gross_profit": 350000.0,
+      "gross_margin": 0.25
+    },
+    {
+      "contract_id": "HT-2026-0102",
+      "customer": "恒远物流",
+      "revenue": 1200000.0,
+      "cost": 900000.0,
+      "gross_profit": 300000.0,
+      "gross_margin": 0.25
+    },
+    {
+      "contract_id": "HT-2026-0108",
+      "customer": "远达能源",
+      "revenue": 1100000.0,
+      "cost": 820000.0,
+      "gross_profit": 280000.0,
+      "gross_margin": 0.2545454545454545
+    }
+  ],
+  "top_cost_contracts": [
+    {
+      "contract_id": "HT-2026-0105",
+      "customer": "蓝海科技",
+      "revenue": 2000000.0,
+      "cost": 1300000.0,
+      "gross_profit": 700000.0,
+      "gross_margin": 0.35
+    },
+    {
+      "contract_id": "HT-2026-0103",
+      "customer": "瑞康医药",
+      "revenue": 1400000.0,
+      "cost": 1050000.0,
+      "gross_profit": 350000.0,
+      "gross_margin": 0.25
+    },
+    {
+      "contract_id": "HT-2026-0102",
+      "customer": "恒远物流",
+      "revenue": 1200000.0,
+      "cost": 900000.0,
+      "gross_profit": 300000.0,
+      "gross_margin": 0.25
+    },
+    {
+      "contract_id": "HT-2026-0108",
+      "customer": "远达能源",
+      "revenue": 1100000.0,
+      "cost": 820000.0,
+      "gross_profit": 280000.0,
+      "gross_margin": 0.2545454545454545
+    },
+    {
+      "contract_id": "HT-2026-0106",
+      "customer": "启明电子",
+      "revenue": 800000.0,
+      "cost": 680000.0,
+      "gross_profit": 120000.0,
+      "gross_margin": 0.15
+    }
+  ],
+  "aging_gt_180": [
+    {
+      "contract_id": "HT-2026-0101",
+      "customer": "华信建设",
+      "invoice_date": "2026-02-15",
+      "terms_days": 60,
+      "aging_days": 258,
+      "overdue_days": 198,
+      "ar": 1500000.0
+    }
+  ],
+  "top_ar": [
+    {
+      "contract_id": "HT-2026-0116",
+      "customer": "远达能源",
+      "invoice_date": "2026-05-15",
+      "terms_days": 90,
+      "aging_days": 169,
+      "overdue_days": 79,
+      "ar": 1900000.0
+    },
+    {
+      "contract_id": "HT-2026-0101",
+      "customer": "华信建设",
+      "invoice_date": "2026-02-15",
+      "terms_days": 60,
+      "aging_days": 258,
+      "overdue_days": 198,
+      "ar": 1500000.0
+    },
+    {
+      "contract_id": "HT-2026-0115",
+      "customer": "启明电子",
+      "invoice_date": "2026-07-15",
+      "terms_days": 45,
+      "aging_days": 108,
+      "overdue_days": 63,
+      "ar": 1500000.0
+    },
+    {
+      "contract_id": "HT-2026-0111",
+      "customer": "恒远物流",
+      "invoice_date": "2026-06-30",
+      "terms_days": 60,
+      "aging_days": 123,
+      "overdue_days": 63,
+      "ar": 1300000.0
+    },
+    {
+      "contract_id": "HT-2026-0117",
+      "customer": "盛达零售",
+      "invoice_date": "2026-09-15",
+      "terms_days": 30,
+      "aging_days": 46,
+      "overdue_days": 16,
+      "ar": 1000000.0
+    }
+  ],
+  "concentration": 0.5401,
+  "findings": [
+    "毛利率 25.00%，距目标 28.00% 差 3.00 个百分点，约 25.6 万元毛利。",
+    "期末应收 1333.0 万元，DSO 48.50 天；压到 45 天需回收约 96.2 万元。",
+    "最低毛利合同 HT-2026-0106（启明电子）毛利率 15.00%，收入 80.0 万元，是提价/降本的首要对象。",
+    "最高毛利合同 HT-2026-0105（蓝海科技）毛利率 35.00%，可作为追加订单的优先客户。",
+    "账龄超 180 天应收 150.0 万元，占期末应收 11.3%，需法务+销售联合清收。",
+    "前 5 大应收占期末应收 54.0%，回款动作应聚焦头部客户。"
+  ]
+}
