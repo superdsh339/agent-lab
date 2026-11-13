@@ -13,10 +13,6 @@ from typing import Any
 from .config import PERIOD_LABEL
 
 
-def _money(value: float) -> str:
-    return f"{value:,.2f}"
-
-
 def _wan(value: float) -> str:
     return f"{value/10_000:,.2f}"
 

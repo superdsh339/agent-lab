@@ -51,6 +51,8 @@ def _money(value: float) -> str:
 
 
 def build_action_library(clean: CleanResult, metrics: Metrics, as_of: date) -> list[Action]:
+    if metrics.revenue <= 0:
+        return []
     plan_month = _next_month(as_of)
     due_early = (plan_month + timedelta(days=14)).isoformat()
     due_mid = (plan_month + timedelta(days=19)).isoformat()
